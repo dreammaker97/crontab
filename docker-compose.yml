@@ -1,0 +1,13 @@
+version: "3"
+services:
+  name:
+    container_name: crontab
+    image: alseambusher/crontab-ui:lastest
+    #volumes:
+      #- ./abc:/abc/abc/abc/abc
+    ports:
+      - "9080:8000"
+    environment:
+      - BASIC_AUTH_USER=admin
+      - BASIC_AUTH_PWD=admin
+    restart: always
