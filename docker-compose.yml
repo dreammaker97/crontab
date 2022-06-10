@@ -2,7 +2,7 @@ version: "3"
 services:
   name:
     container_name: crontab
-    image: alseambusher/crontab-ui:lastest
+    image: alseambusher/crontab-ui:latest
     #volumes:
       #- ./abc:/abc/abc/abc/abc
     ports:
